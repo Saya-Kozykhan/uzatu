@@ -1097,7 +1097,7 @@
                      data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-style="fadeinleft"
                      data-animate-duration="1.5" data-animate-distance="150" data-animate-mobile="y"
                      data-field-top-res-320-value="188" data-field-left-res-320-value="-120">
-                    <div class="tn-atom" field="tn_text_1718598123898">2024 жылы 21 қыркүйек күні<br>сағат 17:30-да
+                    <div class="tn-atom" field="tn_text_1718598123898">2024 жылы 21 қыркүйек күні<br> сағат<strong> 17:00-де</strong>
                         басталады.
                     </div>
                 </div>
@@ -2119,7 +2119,7 @@
                             }
 
                             var deadlineDate = "2024-09-21".trim();
-                            var deadlineTime = "17:30".trim();
+                            var deadlineTime = "17:00".trim();
                             var deadlineUtc = "+05:00".trim();
                             if (deadlineUtc.charAt(0) !== '-' && deadlineUtc.charAt(0) !== '+') {
                                 deadlineUtc = '+' + deadlineUtc;
@@ -2461,6 +2461,7 @@
                                                 <label>Келесіз бе?</label>
                                                 <div class="radio-group">
                                                     <label><input type="radio" name="attendance" value="келемін" required>Әрине келемін</label>
+                                                    <label><input type="radio" name="attendance" value="жұбыыммен келемін" required> Жұбыммен келемін</label>
                                                     <label><input type="radio" name="attendance" value="келмеймін" required> Өкінішке орай, келе алмаймын</label>
                                                 </div>
                                             </div>
@@ -2682,7 +2683,7 @@
                 <div class="t-width t-width_100 ">
 
                     <audio id="bg-sound">
-                        <source src="media/muz.net)">
+                        <source src="media/muz.net).mp3">
                     </audio>
                     <script>
                         $(document).ready(function () {
